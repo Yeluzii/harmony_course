@@ -11,8 +11,8 @@ export struct HeartPage {
       route: 'pages/heart/HeartContentPage01'
     },
     {
-      title: 'Heart 02',
-      description: 'Heart',
+      title: '课程表展示',
+      description: '课程表展示',
       icon: '💗',
       route: 'pages/heart/HeartContentPage02'
     }
