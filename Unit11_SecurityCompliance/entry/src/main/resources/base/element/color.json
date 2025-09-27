@@ -1,0 +1,44 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "bg_white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "border_light",
+      "value": "#E5E5EA"
+    },
+    {
+      "name": "bg_yellow",
+      "value": "#FFC400"
+    },
+    {
+      "name": "content_pink",
+      "value": "#EB5277"
+    },
+    {
+      "name": "icon_normal",
+      "value": "#FF868686"
+    },
+    {
+      "name": "icon_selected",
+      "value": "#EB5277"
+    },
+    {
+      "name": "index_bg",
+      "value": "#F2F2F7"
+    },
+    {
+      "name": "page_bg",
+      "value": "#F2F2F7"
+    },
+    {
+      "name": "border_shadow",
+      "value": "#00000010"
+    }
+  ]
+}
