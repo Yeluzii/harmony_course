@@ -6,6 +6,15 @@
     "pages/star/StarContentPage01",
     "pages/star/StarContentPage02",
     "pages/handtap/HandTapContentPage01",
-    "pages/handtap/HandTapContentPage02"
+    "pages/handtap/HandTapContentPage02",
+    "pages/heart/ColumnPage",
+    "pages/heart/RowPage",
+    "pages/heart/StackPage",
+    "pages/star/FlexPage",
+    "pages/star/ResponsiveFlexPage",
+    "pages/star/GridPage",
+    "pages/star/IrregularGridPage",
+    "pages/star/ResponsiveGridPage",
+    "pages/handtap/StyleSystemPage"
   ]
 }

@@ -5,6 +5,36 @@ export struct StarPage {
   navigate: NavPathStack = new NavPathStack()
   componentList: ComponentItem[] = [
     {
+      title: 'Flex-弹性布局',
+      description: 'Flex（弹性布局）',
+      icon: '🌟',
+      route: 'pages/star/FlexPage'
+    },
+    {
+      title: 'ResponsiveFlex',
+      description: '响应式 Flex 布局',
+      icon: '🌟',
+      route: 'pages/star/ResponsiveFlexPage'
+    },
+    {
+      title: 'Grid-基础布局',
+      description: 'Grid（基础网格布局）',
+      icon: '🌟',
+      route: 'pages/star/GridPage'
+    },
+    {
+      title: 'IrregularGrid',
+      description: '不规则 Grid 布局',
+      icon: '🌟',
+      route: 'pages/star/IrregularGridPage'
+    },
+    {
+      title: 'ResponsiveGrid',
+      description: '响应式 Grid 布局',
+      icon: '🌟',
+      route: 'pages/star/ResponsiveGridPage'
+    },
+    {
       title: 'Star 01',
       description: 'Star',
       icon: '🌟',

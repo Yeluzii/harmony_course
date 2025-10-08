@@ -5,6 +5,12 @@ export struct HandTapPage {
   navigate: NavPathStack = new NavPathStack()
   componentList: ComponentItem[] = [
     {
+      title: 'StyleSystem',
+      description: '样式系统',
+      icon: '👋',
+      route: 'pages/handtap/StyleSystemPage'
+    },
+    {
       title: 'HandTap 01',
       description: 'HandTap',
       icon: '👋',

@@ -5,6 +5,24 @@ export struct HeartPage {
   navigate: NavPathStack = new NavPathStack()
   componentList: ComponentItem[] = [
     {
+      title: 'Column-垂直布局',
+      description: 'Column（垂直布局）',
+      icon: '💗',
+      route: 'pages/heart/ColumnPage'
+    },
+    {
+    title: 'Row-水平布局',
+    description: 'Row（水平布局）',
+    icon: '💗',
+    route: 'pages/heart/RowPage'
+},
+    {
+      title: 'Stack-层叠布局',
+      description: 'Stack（层叠布局）',
+      icon: '💗',
+      route: 'pages/heart/StackPage'
+    },
+    {
       title: 'Heart 01',
       description: 'Heart',
       icon: '💗',
