@@ -6,6 +6,20 @@
     "pages/star/StarContentPage01",
     "pages/star/StarContentPage02",
     "pages/handtap/HandTapContentPage01",
-    "pages/handtap/HandTapContentPage02"
+    "pages/handtap/HandTapContentPage02",
+    "pages/heart/ImageCompPage",
+    "pages/heart/TextInputPage",
+    "pages/heart/ListCompPage",
+    "pages/heart/InteractiveListPage",
+    "pages/heart/ScrollCompPage",
+    "pages/star/UserSettingsPage",
+    "pages/handtap/ClickEventPage",
+    "pages/handtap/TouchEventPage",
+    "pages/handtap/GestureEventPage",
+    "pages/handtap/FocusEventPage",
+    "pages/handtap/ScrollEventPage",
+    "pages/star/BasicTwoWayBindingPage",
+    "pages/star/FormValidationPage",
+    "pages/star/DataDrivenUIPage"
   ]
 }

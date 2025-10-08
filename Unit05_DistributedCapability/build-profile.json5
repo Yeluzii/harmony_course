@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/yeluzi/.ohos/config/default_Unit05_DistributedCapability_6bxXtvcLAMTLya41Sj2w9q-Uyb-UxQiZThHr9QlHl_Y=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B59A4CFC51FDC78FDBFF5764AC6D50118E8057D88D00BBDA6AFBA7994E35A0B40A1890278D29580",
+          "profile": "/Users/yeluzi/.ohos/config/default_Unit05_DistributedCapability_6bxXtvcLAMTLya41Sj2w9q-Uyb-UxQiZThHr9QlHl_Y=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/yeluzi/.ohos/config/default_Unit05_DistributedCapability_6bxXtvcLAMTLya41Sj2w9q-Uyb-UxQiZThHr9QlHl_Y=.p12",
+          "storePassword": "0000001B6C5DE2C32B71399D0ED92F5B04600EFB9A5D1C5410AEAE922B4229C815C507208463E74DA73663"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",

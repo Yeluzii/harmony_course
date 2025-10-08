@@ -5,6 +5,36 @@ export struct HandTapPage {
   navigate: NavPathStack = new NavPathStack()
   componentList: ComponentItem[] = [
     {
+      title: '点击事件',
+      description: '点击事件',
+      icon: '👋',
+      route: 'pages/handtap/ClickEventPage'
+    },
+    {
+      title: '触摸事件',
+      description: '触摸事件',
+      icon: '👋',
+      route: 'pages/handtap/TouchEventPage'
+    },
+    {
+      title: '手势事件',
+      description: '手势事件',
+      icon: '👋',
+      route: 'pages/handtap/GestureEventPage'
+    },
+    {
+      title: '焦点事件',
+      description: '焦点事件',
+      icon: '👋',
+      route: 'pages/handtap/FocusEventPage'
+    },
+    {
+      title: '滚动事件',
+      description: '滚动事件',
+      icon: '👋',
+      route: 'pages/handtap/ScrollEventPage'
+    },
+    {
       title: 'HandTap 01',
       description: 'HandTap',
       icon: '👋',

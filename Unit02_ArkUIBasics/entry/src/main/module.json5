@@ -1,5 +1,10 @@
 {
   "module": {
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+    ],
     "name": "entry",
     "type": "entry",
     "description": "$string:module_desc",
@@ -16,9 +21,9 @@
         "name": "EntryAbility",
         "srcEntry": "./ets/entryability/EntryAbility.ets",
         "description": "$string:EntryAbility_desc",
-        "icon": "$media:msg_logo",
+        "icon": "$media:template_pink_icon",
         "label": "$string:EntryAbility_label",
-        "startWindowIcon": "$media:template_purple_icon",
+        "startWindowIcon": "$media:template_pink_icon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,
         "skills": [

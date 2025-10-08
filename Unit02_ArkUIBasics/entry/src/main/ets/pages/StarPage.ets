@@ -5,16 +5,40 @@ export struct StarPage {
   navigate: NavPathStack = new NavPathStack()
   componentList: ComponentItem[] = [
     {
-      title: 'Star 01',
-      description: 'Star',
+      title: 'Complex State Page',
+      description: 'Complex State Page',
       icon: '🌟',
       route: 'pages/star/StarContentPage01'
     },
     {
-      title: 'Star 02',
-      description: 'Star',
+      title: '@Prop：单向数据传递',
+      description: '@Prop：单向数据传递',
       icon: '🌟',
-      route: 'pages/star/StarContentPage01'
+      route: 'pages/star/StarContentPage02'
+    },
+    {
+      title: '@Link：双向数据绑定',
+      description: '@Link：双向数据绑定',
+      icon: '🌟',
+      route: 'pages/star/UserSettingsPage'
+    },
+    {
+      title: '基础双向绑定机制',
+      description: '基础双向绑定机制',
+      icon: '🌟',
+      route: 'pages/star/BasicTwoWayBindingPage'
+    },
+    {
+      title: '表单联动与验证',
+      description: '表单联动与验证',
+      icon: '🌟',
+      route: 'pages/star/FormValidationPage'
+    },
+    {
+      title: '数据驱动UI更新',
+      description: '数据驱动UI更新',
+      icon: '🌟',
+      route: 'pages/star/DataDrivenUIPage'
     }
   ]
 
