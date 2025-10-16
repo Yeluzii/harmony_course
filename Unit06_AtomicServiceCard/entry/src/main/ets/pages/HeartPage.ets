@@ -5,8 +5,8 @@ export struct HeartPage {
   navigate: NavPathStack = new NavPathStack()
   componentList: ComponentItem[] = [
     {
-      title: 'Heart 01',
-      description: 'Heart',
+      title: 'Counter',
+      description: '计数器',
       icon: '💗',
       route: 'pages/heart/HeartContentPage01'
     },

@@ -45,6 +45,20 @@
             "resource": "$profile:backup_config"
           }
         ],
+      },
+      {
+        "name": "CountFormAbility",
+        "srcEntry": "./ets/formability/CountFormAbility.ets",
+        "description": "计数器卡片",
+        "icon": "$media:startIcon",
+        "label": "$string:CountFormAbility_label",
+        "type": "form",
+        "metadata": [
+          {
+            "name": "ohos.extension.form",
+            "resource": "$profile:count_form_config"
+          }
+        ]
       }
     ]
   }

@@ -39,6 +39,22 @@
     {
       "name": "border_shadow",
       "value": "#00000010"
+    },
+    {
+      "name": "text_primary",
+      "value": "#000"
+    },
+    {
+      "name": "primary_blue",
+      "value": "#FF839DF6"
+    },
+    {
+      "name": "card_background",
+      "value": "#fff"
+    },
+    {
+      "name": "shadow",
+      "value": "#FFC400"
     }
   ]
 }
